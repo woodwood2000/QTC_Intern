@@ -59,7 +59,7 @@ def test(factor,data):
             raise TypeError('error index type')
         print ('{} OK!'.format(factor))
 
-from Create import alpha1, alpha2, alpha3, alpha4, alpha5, alpha6, alpha7, alpha8, alpha9, alpha10
+from Create10 import alpha1, alpha2, alpha3, alpha4, alpha5, alpha6, alpha7, alpha8, alpha9, alpha10
 
 for f in ['alpha1', 'alpha2', 'alpha3', 'alpha4', 'alpha5', 'alpha6', 'alpha7', 'alpha8', 'alpha9', 'alpha10']:
     test(f, globals()[f].run_formula(dv))

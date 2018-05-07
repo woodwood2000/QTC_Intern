@@ -59,7 +59,7 @@ def test(factor,data):
             raise TypeError('error index type')
         print ('{} OK!'.format(factor))
 
-from Reproduce import alpha14, alpha45, alpha71, alpha152, alpha156, CashRateOfSalesLatest, OperCashFlowPS
+from Reproduce8 import alpha14, alpha45, alpha71, alpha152, alpha156, CashRateOfSalesLatest, OperCashFlowPS, TOBT
 
-for f in ['alpha14', 'alpha45', 'alpha71', 'alpha152', 'alpha156', 'CashRateOfSalesLatest', 'OperCashFlowPS']:
+for f in ['alpha14', 'alpha45', 'alpha71', 'alpha152', 'alpha156', 'CashRateOfSalesLatest', 'OperCashFlowPS', 'TOBT']:
     test(f, globals()[f].run_formula(dv))
