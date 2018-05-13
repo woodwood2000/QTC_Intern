@@ -11,6 +11,12 @@ Finish_alpha10.xlsx # 10个因子的绩效
 ## 8个复现的因子   
 test_reproduce8.py # 测试8个复现的因子  
 /Reproduce8 # 8个复现因子的 .py 文件夹  
-Exercise5.ipynb # 8个复现因子的 .ipynb  
+Exercise5.ipynb # 8个复现因子的 .ipynb
+
+
+## 组合因子
+多因子组合.ipynb
+output_abs # 绝对收益
+output_relative # 相对收益
 
 
